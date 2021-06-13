@@ -1,0 +1,75 @@
+baseURL: https://theun.ai/
+languageCode: en-us
+title: Theun van Vliet
+theme: personal-web
+copyright: © Theun van Vliet
+googleAnalytics: ''
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+params:
+  accentColor: '#750'
+  assets:
+    customCSS: ''
+    favicon: ''
+  breadcrumb: yes
+  contact:
+    email: ''
+    text: ''
+  intro:
+    main: 'Theun van Vliet'
+    sub: Data Scientist and Consultant
+  main:
+    latestPublishHeader: My Latest Post
+  mainSections: post
+  notFound:
+    gopher: /images/gopher.png
+    h1: Bummer!
+    p: It seems that this page doesn't exist.
+  sections:
+    portfolio: project
+    post: article
+  sidebar:
+    backgroundImage: 'images/background.jpg'
+    gradientOverlay: 'rgba(0,0,0,0),rgba(17,51,119,1)'
+    logo: 'images/theun.jpeg'
+  social:
+    github: https://github.com/theunis
+    linkedin: https://www.linkedin.com/in/theunvanvliet
+taxonomies:
+  design: designs
+  tech: techs
+blackfriday:
+  hrefTargetBlank: yes
+menu:
+  main:
+    - identifier: about
+      name: About
+      title: About section
+      url: /about/
+      weight: -120
+    # - identifier: portfolio
+    #   name: Portfolio
+    #   title: Portfolio
+    #   url: /portfolio/
+    #   weight: -110
+    - identifier: blog
+      name: Post
+      title: Blog section
+      url: /post/
+      weight: -100
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+privacy:
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: yes
+    respectDoNotTrack: yes
+    useSessionStorage: no
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
